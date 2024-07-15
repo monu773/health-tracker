@@ -1,0 +1,27 @@
+<!-- pagination.component.html -->
+<nav aria-label="Page navigation">
+  <ul class="pagination">
+    <li
+      class="page-item"
+      [class.disabled]="currentPage === 1"
+      (click)="previousPage()"
+    >
+      <p class="page-link" href="#">Previous</p>
+    </li>
+    <li
+      class="page-item"
+      *ngFor="let page of pages"
+      [class.active]="page === currentPage"
+      (click)="goToPage(page)"
+    >
+      <p class="page-link" href="#">{{ page }}</p>
+    </li>
+    <li
+      class="page-item"
+      [class.disabled]="currentPage === totalPages"
+      (click)="nextPage()"
+    >
+      <p class="page-link" >Next</p>
+    </li>
+  </ul>
+</nav>

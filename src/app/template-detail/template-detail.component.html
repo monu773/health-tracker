@@ -1,0 +1,61 @@
+<div class="p-5">
+    <div class="mb-5">
+      <button routerLink="/" class="btn btn-dark"><i class="fas fa-arrow-left me-2"></i>Back to List</button>
+    </div>
+    <div class="d-flex mb-5 justify-content-between align-items-center">
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th scope="col">Title</th>
+          <th scope="col">Description</th>
+          <th scope="col">Category</th>
+          <th scope="col">Prompt</th>
+          <th scope="col">Locale</th>
+          <th scope="col">Order</th>
+          <th scope="col">Created</th>
+          <th scope="col">Updated</th>
+          <th scope="col">Status</th>
+          <th scope="col">Active</th>
+          <th scope="col">Owner</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            {{ template?.title }}
+          </td>
+          <td>
+            {{ template?.description }}
+          </td>
+          <td>
+            {{ template?.category }}
+          </td>
+          <td>
+            {{ template?.prompt }}
+          </td>
+          <td>
+            {{ template?.locale }}
+          </td>
+          <td>
+            {{ template?.id }}
+          </td>
+          <td>
+            04-10-23
+          </td>
+          <td>
+            04-10-23
+          </td>
+          <td>
+            Published|draft
+          </td>
+          <td>
+            True
+          </td>
+          <td>
+            ChatBook
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

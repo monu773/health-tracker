@@ -1,0 +1,20 @@
+{
+  "templates": [
+    {
+      "title": "Test04",
+      "description": "Testing04...",
+      "category": "Project Test04",
+      "prompt": "Test04 Completed!!!",
+      "locale": "en",
+      "id": 4
+    },
+    {
+      "title": "Test05",
+      "description": "Testing05...",
+      "category": "Project Test05",
+      "prompt": "Test05 Completed!!",
+      "locale": "en",
+      "id": 5
+    }
+  ]
+}
